@@ -1,0 +1,17 @@
+<head>
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Yeonmu Math Club">
+    <meta property="og:description" content="창의로운 수학생활 동아리">
+    <meta property="og:image" content="https://yeonmu-math-club.github.io/images/home.png">
+    <link rel="icon" type="image/svg" href="{{ site.url }}{{ site.baseurl }}/images/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css " | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+    {% if page.mathjax %}
+      {% include mathjax_support.html %}
+    {% endif %}
+</head>

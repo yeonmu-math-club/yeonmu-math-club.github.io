@@ -1,0 +1,51 @@
+Category 1:
+  name: Project1
+  description: 균등한 케이크 자르기
+Category 2:
+  name: Project2
+  description: 공정한 케이크 자르기
+Category 3:
+  name: Project3
+  description: 지프 사막 건너기 문제
+Category 4:
+  name: Project4
+  description: Sim 게임과 램지 이론
+Category 5:
+  name: Project5
+  description: 월리스-보여이-게르빈 정리
+Category 6:
+  name: Project6
+  description: Sperner의 보조 정리
+Category 7:
+  name: Project7
+  description: 가장 어려운 논리 퍼즐
+Category 8:
+  name: Project8
+  description: 카드 게임의 필승 전략
+Category 9:
+  name: Project9
+  description: Chomp 게임
+Category 10:
+  name: Project10
+  description: 정사각형 안에 원 채우기
+Category 11:
+  name: Project11
+  description: 원 위의 세 점이 원의 중심을 포함할 확률
+Category 12:
+  name: Project12
+  description: Friendship Paradox
+Category 13:
+  name: Project13
+  description: 머그컵 위의 세 유틸리티 문제
+Category 14:
+  name: Project14
+  description: 뷔퐁의 바늘 문제
+Category 15:
+  name: Project15
+  description: Monsky의 정리
+Category 16:
+  name: Project16
+  description: 소감
+Category 17:
+  name: Reports
+  description: 보고서

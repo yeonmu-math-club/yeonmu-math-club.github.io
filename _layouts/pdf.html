@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div id="wrapper">
+      <div id="main2">
+        <div class="inner">
+          <div class="post">
+            <span class="post-title">{{ | remove: "Yeonmu-math-club"}}</span>
+            <span class="post-date">{{ | date_to_string }}</span>
+            <article class="post-article">
+              <p style="margin: 0 0 1em 0;"></p>
+              {{ content }}
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+    
+    <div class="post">
+      <span class="post-title">{{ | remove: "Yeonmu-math-club"}}</span>
+      <span class="post-date">{{ | date_to_string }}</span>
+      <article class="post-article">
+          {{ content }}
+      </article>
+    </div>
+</body>
+{% include footer.html %}
+</html>
